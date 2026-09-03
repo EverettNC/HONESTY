@@ -1,0 +1,56 @@
+import type { AccessEvent } from "./types";
+
+/** Public events observed on EverettNC's GitHub. Replaced as soon as a live pull lands. */
+export const SEED_EVENTS: AccessEvent[] = [
+  {
+    id: "seed-cs-6788e8e",
+    at: "2026-09-03T05:27:09Z",
+    kind: "push",
+    source: "github",
+    actorLogin: "EverettNC",
+    repo: "EverettNC/Christman-Sound",
+    files: [
+      "christman_sound/corti_receiver.py",
+      "christman_sound/word_ear_receiver.py",
+      "pyproject.toml",
+    ],
+    summary: "Touched 3 files in EverettNC/Christman-Sound",
+    url: "https://github.com/EverettNC/Christman-Sound/commit/6788e8e609a8f3232859143a797f9cdaca67e7e4",
+    sha: "6788e8e609a8f3232859143a797f9cdaca67e7e4",
+  },
+  {
+    id: "gh-14170933516",
+    at: "2026-08-31T23:22:40Z",
+    kind: "issue",
+    source: "github",
+    actorLogin: "EverettNC",
+    repo: "The-ChristmanAI-Project/Harvest-Now-Decrypt-Later",
+    files: [],
+    summary: "Closed issue: Help wanted: constant-time Rust ML-KEM backend (PyO3) on The-ChristmanAI-Project/Harvest-Now-Decrypt-Later",
+    url: "https://github.com/The-ChristmanAI-Project/Harvest-Now-Decrypt-Later/issues/4",
+  },
+  {
+    id: "gh-19551977104",
+    at: "2026-08-31T08:04:24Z",
+    kind: "push",
+    source: "github",
+    actorLogin: "EverettNC",
+    repo: "EverettNC/Harvest-Now-Decrypt-Later",
+    files: ["CONTRIBUTING.md", ".github/CODEOWNERS", "christman_crypto/__init__.py", "README.md"],
+    summary: "Touched 4 files in EverettNC/Harvest-Now-Decrypt-Later",
+    url: "https://github.com/EverettNC/Harvest-Now-Decrypt-Later",
+    sha: "fb855f36beda1762b31ea7ff1061ebe21c29464f",
+  },
+  {
+    id: "gh-19544262235",
+    at: "2026-08-31T09:54:00Z",
+    kind: "push",
+    source: "github",
+    actorLogin: "EverettNC",
+    repo: "EverettNC/mcp-media-ingestor",
+    files: ["main.py", "dashboard.html", "server.py", "EAR.py"],
+    summary: "Touched 4 files in EverettNC/mcp-media-ingestor",
+    url: "https://github.com/EverettNC/mcp-media-ingestor",
+    sha: "ccbf92a970e9350e234cfc25cb8a665083af1c38",
+  },
+];

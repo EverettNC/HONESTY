@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Honesty Above All Else",
+      "hasCanvas": false,
+      "bodyTextLen": 1971,
+      "bodyTextHash": "2eb889a585d4d6baa1ab9d88786d0ad6ffe4ac129621ac55fe00bd4bcc5c7837",
+      "bodyTextPrefix": "Skip to record Honesty above all else HOME STATION Desk Ledger W",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Honesty Above All Else",
+      "hasCanvas": false,
+      "bodyTextLen": 1842,
+      "bodyTextHash": "3992534ecc27849ab6a104a033c61d1ee148a39520d37dc3a19c2efbd990eecf",
+      "bodyTextPrefix": "Skip to record Honesty above all else AT REST HOME STATION DESK ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
